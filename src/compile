@@ -1,0 +1,10 @@
+#!/bin/bash
+
+mkdir build
+cd build
+cmake ..
+make
+mv diffusion ..
+cd ..
+rm -r build
+
